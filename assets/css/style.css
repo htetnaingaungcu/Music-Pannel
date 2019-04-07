@@ -1,0 +1,143 @@
+/*----------------------------------
+Global CSS
+-----------------------------------*/
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Old Standard TT', serif;
+	font-size: 18px;
+	line-height: 28px;
+}
+h1,h2,h3,h4,h5,h6,
+h1>a,h2>a,h3>a,h4>a,h5>a,h6>a {
+	font-family: 'Oswald', sans-serif;
+}
+a {
+	color: #222;
+	text-decoration: none;
+}
+/*----------------------------------
+Common CSS
+-----------------------------------*/
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+.main-bg {
+	background: #3a62de;
+	color: #fff;
+}
+.main-text-color {
+	color: #1b1d31;
+}
+
+
+
+.admin-panel-wrapper {
+    position: relative;
+}
+
+.sidebar-box {
+    background: #3a62de;
+    width: 320px;
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.content {
+    z-index: 1;
+    position: relative;
+    margin-left: 350px;
+    padding: 50px;
+}
+
+.logo-wrapper {
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo-wrapper img {
+    max-width: 110px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: block;
+}
+
+.menu li a {
+    border-bottom: 1px solid #fff;
+    color: #dee2e6;
+    display: block;
+    padding: 15px 20px 15px 50px;
+    text-decoration: none;
+}
+
+.std-form {
+    margin-bottom: 30px;
+}
+
+.std-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.std-title {
+    margin-bottom: 30px;
+}
+
+.std-form input, .std-form textarea {
+    border: 2px solid #222;
+    display: block;
+    width: 100%;
+    padding: 3px 10px;
+}
+
+.std-form textarea {
+    min-height: 250px;
+}
+
+.btn-wrapper button {
+    display: block;
+    border: 0;
+    background: #3a62de;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }
+
+
+
+
+
+
+
+
+
